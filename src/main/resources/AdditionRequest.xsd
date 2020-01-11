@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/AdditionRequest" xmlns:tns="http://www.example.org/AdditionRequest" elementFormDefault="qualified">
+
+    <element name="AdditionRequest">
+    	<complexType>
+    		<sequence>
+    			<element name="num1" type="int"></element>
+    			<element name="num2" type="int"></element>
+    		</sequence>
+    	</complexType>
+    </element>
+
+    <element name="AdditionResponse">
+    	<complexType>
+    		<sequence>
+    			<element name="additionResult" type="int"></element>
+    		</sequence>
+    	</complexType>
+    </element>
+</schema>
